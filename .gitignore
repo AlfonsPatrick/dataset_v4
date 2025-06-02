@@ -1,0 +1,10 @@
+# Large files that shouldn't be in git
+*.pt
+runs/detect/train/weights/
+# But keep best model (optional - only if under 100MB)
+!runs/detect/train/weights/best.pt
+
+# Temporary files
+__pycache__/
+*.pyc
+.DS_Store
